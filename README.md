@@ -1,7 +1,7 @@
 # SkipOnTheFly - VanHack SP Fair 2018
-Project developed for the SkipTheDishes challenge at Vanhack Sao Paulo Fair 2.0
+A project developed for the SkipTheDishes challenge at Vanhack Sao Paulo Fair 2.0
+The SkipOnTheFly is a Rest API for client consumer including features to help couriers find orders waiting for delivery.
 
-The SkipOnTheFly is an Rest API for a mobile features to help couriers find orders waiting for delivers.
 
 ## Features
 * As a couriers I want to...
@@ -22,9 +22,9 @@ It will be used a single project for rest API which includes:
    - http://localhost:8080/order/{id}
 * listing of all orders
    - http://localhost:8080/order
-* listing orders by target location (customer location)
+* listing orders by the target location (customer location)
    - http://localhost:8080/order/target/{locationCode}
-* listing orders by source location (restaurant location)
+* listing orders by the source location (restaurant location)
    - http://localhost:8080/order/source/{locationCode}
 * listing orders assigned to given courier 
    - http://localhost:8080//order/{courierId}
@@ -63,10 +63,10 @@ It will be used a single project for rest API which includes:
    
    
 ### Basic Scenario
-1. Courier will search for waiting orders.
-2. With the choosen restaurant, a list of orders will be retrieved
-3. He can chooses the specified delivers to do and submit the assigment 
-4. Another service is the list the assigment.
+1.	Courier will search for waiting orders.
+2.	With the chosen restaurant, a list of orders will be retrieved
+3.	He can choose the specified delivers to do and submit the assignment
+4.	Another service is the list of the assignment.
 
 
 
